@@ -1,13 +1,15 @@
 {
-  "name": "drag-and-drop-image-vector",
-  "dependencies": {
-    "ol": "6.12.0"
+  "name": "vitejs-ol-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "devDependencies": {
-    "parcel": "^2.0.0"
+    "vite": "^3.0.9"
   },
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build --public-url . index.html"
+  "dependencies": {
+    "ol": "latest"
   }
 }
